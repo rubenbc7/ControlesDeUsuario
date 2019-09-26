@@ -9,8 +9,8 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Perímetro: " VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,61,0,0" TextWrapping="Wrap" Text="Apotema: " VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="18" Margin="10,26,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="18" Margin="10,82,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPeri" HorizontalAlignment="Left" Height="18" Margin="10,26,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtApo" HorizontalAlignment="Left" Height="18" Margin="10,82,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </UserControl>
